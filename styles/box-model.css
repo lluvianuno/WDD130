@@ -1,5 +1,5 @@
 .callout {
-	max-width: ;
+    max-width: ;
     margin: ;
     border: ;
     padding: ;
@@ -18,13 +18,12 @@
 }
 
 blockquote {
-	margin: ;
+    margin: ;
 }
 
 cite {
     display: ;
     border-top: ;
     padding-top: ;
-    text-align: left
-    font-size: ;
+    text-align: left font-size:;
 }
