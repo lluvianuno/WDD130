@@ -10,7 +10,50 @@
 header {
     background-color: var(--accent1-color);
     color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    gap: 20px;
 }
+
+.logo img {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 25px;
+}
+
+ header nav {
+    background-color: none;
+    padding: 3px;
+    border: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+header nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border-left: 1px solid var(--accent1-color);
+}
+
+header nav a:first-child {
+    border-left: none;
+    border-radius: 3px 0 0 3px;
+}
+
+header nav a:last-child {
+    border-right: none;
+    border-radius: 0 3px 3px 0;
+}
+
+/*---------------------------------------*/
 
 *{
     margin: 0;
@@ -32,7 +75,6 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
 }
-
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
@@ -41,6 +83,8 @@ nav, p, section, article {
 .socialmedia a {
     text-decoration: none;
 }
+
+/*----------------------------------------------*/
 
 .hero {
     position: relative;
@@ -59,9 +103,11 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--primary-color);
-    color: #fff;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
 }
+
+/*-------------------------------------------*/
 
 article {
     position: absolute;
@@ -82,4 +128,71 @@ article {
 article p {
     text-align: left;
     font-family: var(--body-font);
+}
+
+/*--------------------------------------------------*/
+
+section {
+    background-color: var(--primary-color);
+    margin: 0;
+}
+
+section h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.history-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history-space img {
+    width: 20%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.history-space p {
+    margin: auto;
+    text-align: center;
+    font-family: var(--body-font);
+}
+
+/*--------------------------------------------------*/
+
+.adventure section {
+    margin: 20px;
+}
+
+.rafting-images img {
+    width: 150px;
+}
+
+.rafting-images{
+    width: 25%;
+    height: auto;
+  
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-left: 15px;
+
+}
+
+.rafting-images figcaption {
+    font-family: var(--body-font)
+}
+
+/*-------------------------------------------------*/
+
+footer {
+    background-color: var(--accent1-color);
+}
+
+footer nav {
+    display: flex;
+    justify-content: flex-end;
+    
 }
