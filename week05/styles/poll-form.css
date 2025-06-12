@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather, Georgia, serif';
+    font-size: 100%;
+    background-color: #fff;
+    color: #333;
+}
+
+header, h1 {
+    font-family: Merriweather;
+    text-align: center;
+    color: navy;
+    font-size: 120%;
+    padding: 10px;
+    background-color: none;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid rgb( 0, 0, 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb( 0, 0, 0 / 0.2);
+    border-radius: 0.5rem;
+}
+
+legend {
+    font-family: Merriweather;
+    color: navy;
+    font-size: 110%;
+}
+
+label, input, button, select, textarea {
+    font-family: roboto, arial, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 2px;
+    font-size: 105%;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+    
+}
+
+button {
+    color: #eee;
+    font-family: ;
+    font-size: 110%;
+    background-color: navy;
+    padding: 6px;
+    padding: 6px;
+    border: 1px solid rgb( 0, 0, 0 / 0.1);
+    border-radius: 0.5rem;
+    margin: auto;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    display: grid;
+    grid-template-columns: 3fr 1r;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
