@@ -38,7 +38,7 @@ header nav a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     border-left: 1px solid var(--accent1-color);
 }
 
@@ -132,7 +132,7 @@ article p {
 /*--------------------------------------------------*/
 
 section {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     margin: 0;
 }
 
@@ -184,7 +184,7 @@ section h2 {
     font-family: var(--body-font)
 }
 
-/*-------------------------------------------------*/
+/*---------------------FOOTER----------------------------*/
 
 footer {
     background-color: var(--accent1-color);
@@ -194,4 +194,113 @@ footer nav {
     display: flex;
     justify-content: flex-end;
     
+}
+
+.wireframe {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------   ABOUT US   -----------------------------------------------------*/
+
+/*---------------Contact Us------------------*/
+.contact-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.contact-info p {
+  margin: 20px 0;
+}
+
+.map img {
+  width: 300px;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+/*---------------Get To Know Us------------------*/
+
+.get-to-know-us section {
+    margin: 20px;
+}
+
+.employees img {
+    width: 150px;
+    height: 140px;
+}
+
+.employees{
+    width: 25%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-left: 5rem;
+
+}
+
+.employees figcaption {
+    font-family: var(--body-font)
+}
+
+/*---------------Form------------------*/
+legend {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    background-color: var(--secondary-color);
+    font-family: var(--body-font);
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-column: 2;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+fieldset {
+    border: none;
+    margin: auto;
+    display: grid;
+    
+
+}
+
+button {
+    font-family: var(--heading-font);
+    color: #eee;
+    font-size: 110%;
+    background-color: var(--accent2-color);
+    padding: 5px;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
 }
