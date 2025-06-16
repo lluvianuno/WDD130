@@ -89,13 +89,19 @@
                     <label for="email">Email: </label>
                     <input type="email" name="email" id="email"> <br>
                 
-                    <label for="purpose">What is the purpose of your message?</label> <br>
-                    <input type="radio" name="purpose" id="purpose"> General Inquiry <br>
-                    <input type="radio" name="reservation" id="reservation"> Reservation Question <br>
-                    <input type="radio" name="suggestion" id="suggestion"> Website Suggestion <br>
+                    <p>What is the purpose of your message?</p>
+
+                    <input type="radio" name="purpose" id="general" value="general">
+                    <label for="general">General Inquiry</label><br>
+
+                    <input type="radio" name="purpose" id="reservation" value="reservation">
+                    <label for="reservation">Reservation Question</label><br>
+
+                    <input type="radio" name="purpose" id="suggestion" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label><br>
 
                     <label for="message">Your message:</label>
-                    <input type="textarea" name="message" id="message">
+                    <textarea name="message" id="message"></textarea>
 
                 <div class="subsciption">
                     <label for="newsletter">Please subscribe me to the monthly newsletter:</label>
