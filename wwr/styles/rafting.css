@@ -257,7 +257,9 @@ footer nav {
 }
 
 .employees figcaption {
-    font-family: var(--body-font)
+    font-family: var(--body-font);
+    text-align: center;
+    font-size: 1.2em;
 }
 
 /*---------------Form------------------*/
