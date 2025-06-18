@@ -52,8 +52,6 @@ header nav a:last-child {
     border-radius: 0 3px 3px 0;
 }
 
-/*---------------------------------------*/
-
 *{
     margin: 0;
     padding: 0;
@@ -83,8 +81,6 @@ nav, p, section, article {
     text-decoration: none;
 }
 
-/*----------------------------------------------*/
-
 .hero {
     position: relative;
 }
@@ -106,7 +102,6 @@ h1 {
     color: var(--secondary-color);
 }
 
-/*-------------------------------------------*/
 
 article {
     position: absolute;
@@ -129,7 +124,6 @@ article p {
     font-family: var(--body-font);
 }
 
-/*--------------------------------------------------*/
 
 section {
     background-color: var(--secondary-color);
@@ -159,8 +153,6 @@ section h2 {
     font-family: var(--body-font);
 }
 
-/*--------------------------------------------------*/
-
 .adventure section {
     margin: 20px;
 }
@@ -184,8 +176,6 @@ section h2 {
     font-family: var(--body-font)
 }
 
-/*---------------------FOOTER----------------------------*/
-
 footer {
     background-color: var(--accent1-color);
 }
@@ -202,9 +192,6 @@ footer nav {
     text-decoration: none;
 }
 
-/*----------------------------------------------------   ABOUT US   -----------------------------------------------------*/
-
-/*---------------Contact Us------------------*/
 .contact-section {
   text-align: center;
   padding: 20px;
@@ -234,8 +221,6 @@ footer nav {
   border: 1px solid #ccc;
 }
 
-/*---------------Get To Know Us------------------*/
-
 .get-to-know-us section {
     margin: 20px;
 }
@@ -263,7 +248,6 @@ footer nav {
     
 }
 
-/*---------------Form------------------*/
 legend {
     font-family: var(--heading-font);
     color: var(--accent2-color);
@@ -308,10 +292,6 @@ button {
 
 }
 
-/*------------------------------------------------  TRIPS  ---------------------------------------------*/
-
-/*--------- Doubts -----------*/
-
 .doubts {
     text-align: center;
 }
@@ -322,8 +302,6 @@ button {
     border-radius: .5rem;
     color: var(--secondary-color);
 }
-
-/*--------- Trips --------*/
 
 .trips-images {
   display: flex;
@@ -345,9 +323,6 @@ button {
   margin-bottom: 8px;
 }
 
-
-/*-------- Table --------*/
-
 .table-trips {
     padding: 50px;
 }
@@ -367,10 +342,6 @@ table, th, td {
     border-collapse: collapse;
     
 }
-
-/*------- -------------------------------------------INDEX------------------------------------------------------------*/
-
-/*---------Purpose and Offerings--------*/
 
 .purpose-images {
     display: grid;
@@ -416,8 +387,6 @@ table, th, td {
     background-color: #AE4D20;
     margin-bottom: 20px;
 }
-
-/*--------------- Form -------------*/
 
 .newsletter h2 {
     margin-bottom: 0px;
