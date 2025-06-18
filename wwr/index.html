@@ -1,49 +1,109 @@
-<!--<!DOCTYPE html>-->
-<html lang="en-US">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="styles/styles.css">
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lluvia Nuño | WDD 130</title>
-    <meta name="description" content="Lluvia Nuño's BYU-Idaho WDD 130 course home page">
+    <title>Home - Sunny Rapids</title>
+    <meta name="description" content="This is the homepage of our company's website, the pourpose is to weolcome people to our website.">
     <meta name="author" content="Lluvia Josephine Nuño López">
-</head>
 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
 <body>
     <header>
+        <div class="logo">
+        <img src="images/rafting-logo.png" alt="Rafting Site Logo">
+        </div>
         <nav>
-            <a href="#">Home</a>
-            <a href="wrr/">Rafting Website</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
+
     </header>
 
     <main>
-        <h1>Lluvia Nuño | WDD 130</h1>
-        <img src="./images/profile.webp" alt="Profile" width="200">
-        <p>
-            Hi, my name is Lluvia. I'm 16 years old, I'm from Mexico, and lately,
-            I've been wondering how I'll pass this course. But I'll pass it no matter what it takes!
-            I really like reading books, especially fantasy books.
-            Reading them takes me on new adventures and makes me feel as if I'm part of the story.
-            It's as if I'm experiencing it myself as it happens!
-        </p>
+
+             <div class="hero">
+                <img src="images/hero-image.jpeg" alt="Rafting in a Sunset">
+             <h1>Adventure Awaits</h1>
+            </div>
+
+        <section class="newsletter">
+            <h2>Newsletter Sign-up</h2>
+                <form>
+                    <fieldset>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name">
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+
+                        <label for="subscription">Subscribe me to the newsletter:</label>
+                        <div class="checkbox-row">
+                            <input type="checkbox" name="subscription" id="subscription">Yes
+                        </div>
+                    </fieldset>
+                </form>
+        </section>
+
+        <section class="purpose-section">
+            <h2>Our Purpose and Offerings</h2>
+            <div class="purpose-images">
+
+                <figure>
+                    <img src="images/home/purpose1.jpg" alt="purpose1">
+                    <figcaption>
+                        Connect people of all ages with the thrill, adventure and natural beauty of
+                        rafting on spectacular rivers. Whether you are looking for adrenaline or an unforgettable
+                        moment with your family, we have the perfect trip for you.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/home/purpose2.jpg" alt="purpose2">
+                    <figcaption>
+                        We offer tours for all levels with equipment included and certified guides. 
+                        There are packages for groups, schools and families, as well as quiet rides, sunset tours and basic classes. 
+                        We also offer optional photography, local transportation and a rest area with snacks and souvenirs.
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <h2>Ready to Make a Splash?</h2>
+            <div class="call-to-action-content">
+            <img src="images/home/adventure-awaits-you.jpg" alt="Call to Action"> <br> <br>
+            <a href="trips.html" class="cta-button">Check out our Trips!</a>
+            </div>
+        </section>
+
     </main>
-    <aside>
-        <h2>México</h2>
-        <img src="./images/popocaytepetl.jpg" alt="Natural landscape of México">
-        <p>
-            Mexico is a country in North America, along with Canada and the United States.
-            It is also part of Latin America because the language spoken there is Spanish, a Romance language.
-            Mexico is a multicultural country and a megadiverse country.
-            It is also known for its cuisine and friendly people!
-        </p>
-    </aside>
 
     <footer>
-        <p>&copy; 2025 ⟢ Lluvia Nuño ⟢ Torreón, México</p>
+        <p>
+            &copy; 2025 ⟢ Sunny Rapids ⟢ Lluvia Nuño
+        </p>
+        <nav class="socialmedia">
+            <a href="https://instagram.com">
+                <img src="images/instagram-icon.svg" alt="Instagram">
+            </a>
+            <a href="https://facebook.com">
+                <img src="images/facebook-icon.svg" alt="Facebook">
+            </a>
+            <a href="https://x.com">
+                <img src="images/twitter-icon.svg" alt="Twitter">
+            </a>
+        </nav>
+
+
     </footer>
-
 </body>
-
 </html>

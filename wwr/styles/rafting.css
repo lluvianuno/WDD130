@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #D0B6A8; /*Pale Dogwood*/
+    --primary-color: #eee; /*Pale Dogwood*/
     --secondary-color: #F0EAEA; /*Isabelline*/
     --accent1-color: #524E2E; /*Dab Dark Brown*/
     --accent2-color: #AE4D20; /*Rust*/
@@ -307,3 +307,129 @@ button {
     justify-items: center;
 
 }
+
+/*------------------------------------------------  TRIPS  ---------------------------------------------*/
+
+/*--------- Doubts -----------*/
+
+.doubts {
+    text-align: center;
+}
+
+.doubts a {
+    padding: 10px;
+    background-color: #AE4D20;
+    border-radius: .5rem;
+    color: var(--secondary-color);
+}
+
+/*--------- Trips --------*/
+
+.trips-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.trips-images figure {
+  margin: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.trips-images img {
+  width: 150px;
+  height: 140px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+
+/*-------- Table --------*/
+
+.table-trips {
+    padding: 50px;
+}
+
+table {
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid darkolivegreen;
+    border-collapse: collapse;
+    
+}
+
+/*------- -------------------------------------------INDEX------------------------------------------------------------*/
+
+/*---------Purpose and Offerings--------*/
+
+.purpose-images {
+    display: grid;
+    grid-template-rows: 2fr;
+}
+
+.purpose-images img {
+    width: 250px;
+    height: 240px;
+    float: left;
+    margin: 30px;
+}
+
+.purpose-images figure {
+    text-align: left;
+}
+
+.purpose-images figcaption {
+    margin: 100px;
+}
+
+/*------------ Call to Action -----------*/
+
+.call-to-action-content img{
+    width: 250px;
+    height: 240px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-content {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.call-to-action-content a {
+    padding: 10px;
+    color: var(--primary-color);
+    border-radius: .5rem;
+    background-color: #AE4D20;
+    margin-bottom: 20px;
+}
+
+/*--------------- Form -------------*/
+
+.newsletter h2 {
+    margin-bottom: 0px;
+}
+
+.newsletter form {
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: left;
+}
+
+
+
+
